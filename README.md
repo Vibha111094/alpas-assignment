@@ -21,7 +21,7 @@ Please refer to main.py that has the code for the same.
 
 How to run? \
 Step 1: ```pip install -r requirements.txt``` \
-Step 2: Please download fine-tuned [model](https://drive.google.com/drive/folders/1K8A9uf9FoUPwl07TKmo2K0cmN54P__k0?usp=drive_link") and place is into the model directory. \
+Step 2: Please download fine-tuned [model](https://drive.google.com/file/d/1FcSCDf09EtSqxzXDxjPVcNsr8QX7SwTS/view?usp=sharing) and place is into the model directory. \
 Step 3: ```uvicorn main:app```
 
 ![Screenshot](images/prod_flow.drawio.png)
