@@ -1,12 +1,12 @@
 Task 1:
 
-We would be using a pre-trained transformer Language Model like BERT, and fine-tuning with the Entity Matching data provided to us. We treat this problem as a sequence pair classification task. We use pretrained LMs, which have been shown to generate highly contextualized embeddings that capture better language understanding compared to traditional word embeddings.
+We would be using a pre-trained transformer Language Model like BERT, and fine-tuning with the Entity Matching data provided to us. We treat this problem as a sequence pair classification task. We use pre-trained LMs, which have been shown to generate highly contextualized embeddings that capture better language understanding compared to traditional word embeddings.
 The input would be encoded as [CLS]entity1[SEP]entity2[SEP].
 
 Trained it over a subset of the data(16000 samples) and got a test accuracy of 98.7%
 
-Please refer to for the code task_part1.ipynb.
-I used a colab notebook, A100 GPU to train the model which took approximately 12 minutes.
+Please refer to the code task_part1.ipynb.  \
+I used a colab notebook, A100 GPU to train the model.
 
 ![Screenshot](images/eval.png)
 
