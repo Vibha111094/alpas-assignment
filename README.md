@@ -19,18 +19,18 @@ Please refer to main.py that has the code for the same.
 ![Screenshot](images/api_input.png)
 ![Screenshot](images/api.png)
 
-How to run?
-Step 1: pip install -r requirements.txt
-Step 2: Please download fine-tuned the model from "https://drive.google.com/drive/folders/1K8A9uf9FoUPwl07TKmo2K0cmN54P__k0?usp=drive_link" and place is into the model directory.
+How to run? \
+Step 1: pip install -r requirements.txt \
+Step 2: Please download fine-tuned [model](https://drive.google.com/drive/folders/1K8A9uf9FoUPwl07TKmo2K0cmN54P__k0?usp=drive_link") and place is into the model directory.) \
 Step 3: uvicorn main:app
 
 ![Screenshot](images/prod_flow.drawio.png)
 
 Briefly attempting 2.2
 Monitoring and retraining a machine learning model is essential to ensure its performance remains optimal over time.
-- Monitoring (includes Data Drift Detection,Set up alerts for significant deviations from expected performance,Gather feedback from users or domain experts to identify issues or inaccuracies that the model might be producing in real-world scenarios)
-Tools: Weights and Biases, MLflow
--Retraining:(Create automated pipelines that trigger retraining based on predefined conditions, such as reaching a certain level of data drift or model degradation.)
+- Monitoring (includes Data Drift Detection,Set up alerts for significant deviations from expected performance,Gather feedback from users or domain experts to identify issues or inaccuracies that the model might be producing in real-world scenarios)\
+Tools: Weights and Biases, MLflow]\
+-Retraining:(Create automated pipelines that trigger retraining based on predefined conditions, such as reaching a certain level of data drift or model degradation.)\
 Tools:Apache Airflow
 
 
