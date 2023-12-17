@@ -33,4 +33,6 @@ Tools: Weights and Biases, MLflow]\
 -Retraining:(Create automated pipelines that trigger retraining based on predefined conditions, such as reaching a certain level of data drift or model degradation.)\
 Tools:Apache Airflow
 
+As the training data keeps increasing, it is essential to monitor data drift and re-train and re-deploy the model periodically. 
+
 
