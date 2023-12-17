@@ -29,9 +29,9 @@ Step 3: ```uvicorn main:app```
 Briefly attempting 2.2
 As the training data keeps increasing, it is essential to monitor data drift and re-train and re-deploy the model periodically.
 - Monitoring (includes Data Drift Detection,Set up alerts for significant deviations from expected performance,Gather feedback from users or domain experts to identify issues or inaccuracies that the model might be producing in real-world scenarios)\
-Tools: Weights and Biases, MLflow]\
+Tools: Weights and Biases, MLflow\
 -Retraining:(Create automated pipelines that trigger retraining based on predefined conditions, such as reaching a certain level of data drift or model degradation.)\
-Tools:Apache Airflow
+Tools: Apache Airflow
  
 
 
